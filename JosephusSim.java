@@ -1,4 +1,7 @@
-
+//Yunfeng Duan
+//CS 143
+//Program #5: Josephus Problem 
+//Use a circular linked list to eliminate people until one person remains.
 import java.util.*;
 import java.io.*;
 
@@ -90,7 +93,7 @@ public class JosephusSim {
 
    public boolean isOver() {
       // check if there's only one person left in the circle
-      return false;
+      return size == 1;
    }
 
    
